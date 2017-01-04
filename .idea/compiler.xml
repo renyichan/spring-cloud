@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-cloud-client" />
+        <module name="spring-cloud-config" />
+        <module name="spring-cloud-eureka00" />
+        <module name="spring-cloud-eureka00 (2)" />
+        <module name="spring-cloud-eureka00 (3)" />
+        <module name="spring-cloud-eureka01" />
+        <module name="spring-cloud-eureka02" />
+        <module name="spring-cloud-feign" />
+        <module name="spring-cloud-ribbon" />
+        <module name="spring-cloud-userservice" />
+        <module name="spring-cloud-userservice00" />
+        <module name="spring-cloud-userservice01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="spring-cloud-client" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-eureka00" target="1.8" />
+      <module name="spring-cloud-eureka00 (2)" target="1.8" />
+      <module name="spring-cloud-eureka00 (3)" target="1.8" />
+      <module name="spring-cloud-eureka01" target="1.8" />
+      <module name="spring-cloud-eureka02" target="1.8" />
+      <module name="spring-cloud-feign" target="1.8" />
+      <module name="spring-cloud-ribbon" target="1.8" />
+      <module name="spring-cloud-userservice" target="1.8" />
+      <module name="spring-cloud-userservice00" target="1.8" />
+      <module name="spring-cloud-userservice01" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

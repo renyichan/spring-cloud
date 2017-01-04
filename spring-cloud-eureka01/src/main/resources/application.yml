@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+eureka:
+  instance:
+    hostname: cloud
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://cloud:${server.port}/eureka/
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: userservice
+  cloud:
+    config:
+      uri: http://cloud:8080
+encrypt:
+  failOnError: false

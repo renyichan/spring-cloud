@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-userservice00/spring-cloud-userservice00.iml" filepath="$PROJECT_DIR$/spring-cloud-userservice00/spring-cloud-userservice00.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-userservice01/spring-cloud-userservice01.iml" filepath="$PROJECT_DIR$/spring-cloud-userservice01/spring-cloud-userservice01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
     </modules>
   </component>

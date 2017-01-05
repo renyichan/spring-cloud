@@ -34,6 +34,7 @@
         <module name="spring-cloud-userservice" />
         <module name="spring-cloud-userservice00" />
         <module name="spring-cloud-userservice01" />
+        <module name="spring-cloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -50,6 +51,7 @@
       <module name="spring-cloud-userservice" target="1.8" />
       <module name="spring-cloud-userservice00" target="1.8" />
       <module name="spring-cloud-userservice01" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>

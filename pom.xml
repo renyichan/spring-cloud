@@ -23,6 +23,7 @@
         <module>spring-cloud-userservice01</module>
         <module>spring-cloud-ribbon</module>
         <module>spring-cloud-feign</module>
+        <module>spring-cloud-zuul</module>
     </modules>
     <properties>
         <autoconfig-plugin-version>1.2</autoconfig-plugin-version>

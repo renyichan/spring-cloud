@@ -1,17 +1,18 @@
+---
 server:
   port: 8081
 
 eureka:
   instance:
-    hostname: cloud00
+    hostname: peer1
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://cloud02:8083/eureka/,http://cloud01:8082/eureka/
+      defaultZone: http://peer2:8082/eureka/,http://peer3:8083/eureka/
 
 spring:
-  profiles: cloud00
+  profiles: peer1
   cloud:
     config:
       discovery:
@@ -19,39 +20,39 @@ spring:
 
 ---
 server:
- port: 8082
+  port: 8082
 
 eureka:
- instance:
-   hostname: cloud01
- client:
-   registerWithEureka: true
-   fetchRegistry: true
-   serviceUrl:
-     defaultZone: http://cloud02:8083/eureka/,http://cloud01:8081/eureka/
+  instance:
+    hostname: peer2
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://peer1:8081/eureka/,http://peer3:8083/eureka/
 
 spring:
- profiles: cloud01
- cloud:
-   config:
-     discovery:
-       enabled: true
+  profiles: peer2
+  cloud:
+    config:
+      discovery:
+        enabled: true
 ---
 server:
- port: 8083
+  port: 8083
 
 eureka:
- instance:
-   hostname: cloud02
- client:
-   registerWithEureka: true
-   fetchRegistry: true
-   serviceUrl:
-     defaultZone: http://cloud02:8081/eureka/,http://cloud01:8082/eureka/
+  instance:
+    hostname: peer3
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://peer1:8081/eureka/,http://peer2:8082/eureka/
 
 spring:
- profiles: cloud02
- cloud:
-   config:
-     discovery:
-       enabled: true
+  profiles: peer3
+  cloud:
+    config:
+      discovery:
+        enabled: true

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsumerController {
     @Autowired
     UserClient userClient;
-    @RequestMapping(value = "/add")
+    @RequestMapping(value = "/adduser")
     public String add() {
         return userClient.addandreturn("renyi",11111l);
     }

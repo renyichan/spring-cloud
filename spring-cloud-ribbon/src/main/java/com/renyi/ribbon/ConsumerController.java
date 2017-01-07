@@ -15,12 +15,10 @@ import java.util.Random;
 @RestController
 public class ConsumerController {
     @Autowired
-    RestTemplate restTemplate;
+    private ConsumerService consumerService;
 
     @RequestMapping("/adduser")
     public String add() {
-        Random random = new Random(10000);
-        long id = random.nextLong();
-        return restTemplate.getForEntity("http://USERSERVICE/user/adduserandreturn?username=renyi"+id+"&id="+id, String.class).getBody();
+        return consumerService.add();
     }
 }

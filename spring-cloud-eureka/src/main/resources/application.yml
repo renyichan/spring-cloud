@@ -1,3 +1,4 @@
+---
 server:
   port: 8081
 
@@ -31,7 +32,7 @@ eureka:
       defaultZone: http://peer1:8081/eureka/,http://peer3:8083/eureka/
 
 spring:
-  profiles: peer1
+  profiles: peer2
   cloud:
     config:
       discovery:

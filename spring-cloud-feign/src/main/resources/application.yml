@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://cloud:8081/eureka/
+      defaultZone: http://peer1:8081/eureka/
   instance:
     preferIpAddress: false
     hostname: cloud

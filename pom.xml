@@ -15,12 +15,8 @@
     </parent>
     <modules>
         <module>spring-cloud-config</module>
-        <module>spring-cloud-eureka00</module>
-        <module>spring-cloud-eureka01</module>
-        <module>spring-cloud-eureka02</module>
-        <module>spring-cloud-client</module>
-        <module>spring-cloud-userservice00</module>
-        <module>spring-cloud-userservice01</module>
+        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-userservice</module>
         <module>spring-cloud-ribbon</module>
         <module>spring-cloud-feign</module>
         <module>spring-cloud-zuul</module>

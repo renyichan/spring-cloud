@@ -1,0 +1,57 @@
+server:
+  port: 8081
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://peer2:8082/eureka/,http://peer3:8083/eureka/
+
+spring:
+  profiles: peer1
+  cloud:
+    config:
+      discovery:
+        enabled: true
+
+---
+server:
+  port: 8082
+
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://peer1:8081/eureka/,http://peer3:8083/eureka/
+
+spring:
+  profiles: peer1
+  cloud:
+    config:
+      discovery:
+        enabled: true
+---
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: peer3
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://peer1:8081/eureka/,http://peer2:8082/eureka/
+
+spring:
+  profiles: peer3
+  cloud:
+    config:
+      discovery:
+        enabled: true

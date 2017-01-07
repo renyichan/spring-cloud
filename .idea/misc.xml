@@ -18,6 +18,14 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka00/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-cloud-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-userservice01/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />

@@ -1,0 +1,3 @@
+com\renyi\feign\FeignApplication.class
+com\renyi\feign\UserClient.class
+com\renyi\feign\ConsumerController.class

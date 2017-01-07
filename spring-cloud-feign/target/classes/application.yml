@@ -1,0 +1,14 @@
+server:
+  port: 5001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://cloud:8081/eureka/
+  instance:
+    preferIpAddress: false
+    hostname: cloud
+
+ribbon:
+  eureka:
+    enabled: true

@@ -22,18 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="spring-cloud-client" />
         <module name="spring-cloud-config" />
+        <module name="spring-cloud-eureka" />
         <module name="spring-cloud-eureka00" />
         <module name="spring-cloud-eureka00 (2)" />
         <module name="spring-cloud-eureka00 (3)" />
-        <module name="spring-cloud-eureka01" />
-        <module name="spring-cloud-eureka02" />
         <module name="spring-cloud-feign" />
         <module name="spring-cloud-ribbon" />
         <module name="spring-cloud-userservice" />
         <module name="spring-cloud-userservice00" />
-        <module name="spring-cloud-userservice01" />
         <module name="spring-cloud-zuul" />
       </profile>
     </annotationProcessing>

@@ -1,0 +1,57 @@
+server:
+  port: 8081
+
+eureka:
+  instance:
+    hostname: cloud00
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://cloud02:8083/eureka/,http://cloud01:8082/eureka/
+
+spring:
+  profiles: cloud00
+  cloud:
+    config:
+      discovery:
+        enabled: true
+
+---
+server:
+ port: 8082
+
+eureka:
+ instance:
+   hostname: cloud01
+ client:
+   registerWithEureka: true
+   fetchRegistry: true
+   serviceUrl:
+     defaultZone: http://cloud02:8083/eureka/,http://cloud01:8081/eureka/
+
+spring:
+ profiles: cloud01
+ cloud:
+   config:
+     discovery:
+       enabled: true
+---
+server:
+ port: 8083
+
+eureka:
+ instance:
+   hostname: cloud02
+ client:
+   registerWithEureka: true
+   fetchRegistry: true
+   serviceUrl:
+     defaultZone: http://cloud02:8081/eureka/,http://cloud01:8082/eureka/
+
+spring:
+ profiles: cloud02
+ cloud:
+   config:
+     discovery:
+       enabled: true

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-client/spring-cloud-client.iml" filepath="$PROJECT_DIR$/spring-cloud-client/spring-cloud-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka00/spring-cloud-eureka00.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka00/spring-cloud-eureka00.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka01/spring-cloud-eureka01.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka01/spring-cloud-eureka01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka02/spring-cloud-eureka02.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka02/spring-cloud-eureka02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-userservice00/spring-cloud-userservice00.iml" filepath="$PROJECT_DIR$/spring-cloud-userservice00/spring-cloud-userservice00.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-userservice01/spring-cloud-userservice01.iml" filepath="$PROJECT_DIR$/spring-cloud-userservice01/spring-cloud-userservice01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-userservice/spring-cloud-userservice.iml" filepath="$PROJECT_DIR$/spring-cloud-userservice/spring-cloud-userservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
     </modules>

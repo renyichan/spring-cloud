@@ -30,6 +30,7 @@
         <module name="spring-cloud-feign" />
         <module name="spring-cloud-hystrixDashboard" />
         <module name="spring-cloud-ribbon" />
+        <module name="spring-cloud-turbine" />
         <module name="spring-cloud-userservice" />
         <module name="spring-cloud-userservice00" />
         <module name="spring-cloud-zuul" />
@@ -47,6 +48,7 @@
       <module name="spring-cloud-feign" target="1.8" />
       <module name="spring-cloud-hystrixDashboard" target="1.8" />
       <module name="spring-cloud-ribbon" target="1.8" />
+      <module name="spring-cloud-turbine" target="1.8" />
       <module name="spring-cloud-userservice" target="1.8" />
       <module name="spring-cloud-userservice00" target="1.8" />
       <module name="spring-cloud-userservice01" target="1.8" />

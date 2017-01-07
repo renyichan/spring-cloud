@@ -21,6 +21,7 @@
         <module>spring-cloud-feign</module>
         <module>spring-cloud-zuul</module>
         <module>spring-cloud-hystrixDashboard</module>
+        <module>spring-cloud-turbine</module>
     </modules>
     <properties>
         <autoconfig-plugin-version>1.2</autoconfig-plugin-version>
